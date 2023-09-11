@@ -9,54 +9,60 @@
         android:layout_width="382dp"
         android:layout_height="406dp"
         android:layout_margin="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="12dp"
         android:layout_marginBottom="176dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.233">
+        app:layout_constraintVertical_bias="0.463">
 
-
-        <EditText
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:backgroundTint="#F1C40F"
             android:gravity="center"
-            android:hint="MONTO FACTURA"
-            android:minHeight="48dp" />
+            android:onClick="onClickDataEntry"
+            android:text="Mi Cuenta"
+            android:textColor="#fff"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-10dp"
+            tools:layout_editor_absoluteY="546dp" />
 
-        <EditText
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:backgroundTint="#F1C40F"
             android:gravity="center"
-            android:hint="FECHA DE DOCUMENTO"
-            android:minHeight="48dp" />
+            android:onClick="onClickDataEntry"
+            android:text="Mis Facturas"
+            android:textColor="#fff"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-10dp"
+            tools:layout_editor_absoluteY="546dp" />
 
-        <EditText
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:backgroundTint="#F1C40F"
             android:gravity="center"
-            android:hint="FECHA DE VENCIMIENTO"
-            android:minHeight="48dp" />
+            android:onClick="onClickDataEntry"
+            android:text="Simulador"
+            android:textColor="#fff"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-10dp"
+            tools:layout_editor_absoluteY="546dp" />
+
+
     </LinearLayout>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="3dp"
-        android:backgroundTint="#F1C40F"
-        android:gravity="center"
-        android:onClick="onClickDataShow"
-        android:text="SIMULAR"
-        android:textColor="#fff"
-        tools:layout_editor_absoluteX="-10dp"
-        tools:layout_editor_absoluteY="546dp"
-        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SIMULADOR"
+        android:text="Kapitallis"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

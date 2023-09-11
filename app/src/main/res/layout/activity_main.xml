@@ -52,7 +52,7 @@
             android:minHeight="48dp"/>
 
         <Button
-            android:onClick="onClickCartelera"
+            android:onClick="onClickDataEntry"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
