@@ -17,32 +17,39 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SIMULACION DE ANTICIPO"
-        android:textSize="26dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
+        android:layout_margin="3dp"
+        android:backgroundTint="#F1C40F"
+        android:gravity="center"
+        android:onClick="onClickDataEntry"
+        android:text="TOTAL SIMULACION:"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="146dp" />
 
-    <LinearLayout
-        android:layout_width="381dp"
-        android:layout_height="58dp"
-        android:layout_margin="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="176dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.708">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="COSTO DE LAOPERACION:"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="-119dp"
+        tools:layout_editor_absoluteY="228dp" />
 
 
-    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="TOTAL DE LA SIMULACION:"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+
+</LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
