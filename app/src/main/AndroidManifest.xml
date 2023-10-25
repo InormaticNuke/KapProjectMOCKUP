@@ -21,6 +21,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".selector">
+
+        </activity>
+
+        <activity android:name=".simulator">
+
+        </activity>
+
     </application>
 
 </manifest>
