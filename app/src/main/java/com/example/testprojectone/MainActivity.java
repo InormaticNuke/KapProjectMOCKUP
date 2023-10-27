@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    EditText edtUser,edtPass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
