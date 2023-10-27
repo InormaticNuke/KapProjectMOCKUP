@@ -17,6 +17,8 @@ public class simulator extends AppCompatActivity{
         startActivity(intent);
     }
 
+
+
     Integer documentValue;
     String documentDate;
     String documentExp;
