@@ -59,6 +59,7 @@
         tools:layout_editor_absoluteY="118dp" />
 
     <VideoView
+        android:id="@+id/videoOne"
         android:layout_width="256dp"
         android:layout_height="366dp"
         tools:layout_editor_absoluteX="77dp"
