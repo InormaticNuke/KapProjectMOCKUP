@@ -5,6 +5,20 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:backgroundTint="#F1C40F"
+        android:gravity="center"
+        android:onClick="onClickSelectorTwo"
+        android:text="ATRAS"
+        android:textColor="#fff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="648dp" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="148dp"
@@ -16,48 +30,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SIMULADOR"
+        android:text="SUCURSALES"
         android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.164" />
-
-    <LinearLayout
-        android:layout_width="382dp"
-        android:layout_height="406dp"
-        android:layout_margin="16dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="176dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="Monto a giro: _____"
-            android:textColor="@color/black"
-            android:textSize="20dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="Coste de operacion: _____"
-            android:textColor="@color/black"
-            android:textSize="20dp"/>
-
-    </LinearLayout>
-
+        app:layout_constraintVertical_bias="0.161" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
