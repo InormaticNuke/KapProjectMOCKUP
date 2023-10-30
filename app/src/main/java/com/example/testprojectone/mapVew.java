@@ -5,6 +5,8 @@ public class mapVew {
 
     private static final double EARTH_RADIUS = 6371;
 
+    //AQUI SE MOSTRARA UN MAPA DE DONDE ENCONTRAR LA SUCURSAL, WORK IN PROGRESS
+
     /*public static double mapView(GeoPoint point1, GeoPoint point2) {
         double lat1 = Math.toRadians(point1.getLatitude());
         double lon1 = Math.toRadians(point1.getLongitude());

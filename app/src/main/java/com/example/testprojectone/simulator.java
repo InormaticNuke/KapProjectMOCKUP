@@ -23,6 +23,8 @@ public class simulator extends AppCompatActivity{
     String documentDate;
     String documentExp;
 
+    //AQUI VA TODO EL PROCESO DE BACKEND DE LOS DATOS ENTREGADOS PARA LA SIMULACION ; WORK IN PROGRESS
+
    /* EditText editText = (EditText) findViewById(R.id.factValue);
     editText.setOnClickListener (new View.OnClickListener(){
         public void onClick(View v){

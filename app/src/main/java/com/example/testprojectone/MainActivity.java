@@ -2,6 +2,7 @@ package com.example.testprojectone;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -17,12 +18,32 @@ public class MainActivity extends AppCompatActivity {
 
         /*edtUser = (EditText) findViewById(R.id.usertext);
         edtPass = (EditText) findViewById(R.id.passtext);*/
+
+        /*MyAsyncTask asyncTask = new MyAsyncTask();
+        asyncTask.execute();*/
     }
 
     protected void onClickDataLog(View view){
         Intent intent = new Intent (this, selector.class);
         startActivity(intent);
     }
+
+    //Funcion Async, Intento de pantalla de carga WORK IN PROGRESS
+
+    /*public class MyAsyncTask extends AsyncTask<Void, Void, String> {
+
+        protected String doInBackground(Void... voids){
+            try {
+                Thread.sleep(10000);
+            } catch (InterruptedException e){
+                e.printStackTrace();
+            }
+            return "Loaded";
+        }
+
+    }*/
+
+    // LOGIN WORK IN PROGRESS
 
     /*public void Acceder(View view){
         String username = user.getText().toString().trim();
