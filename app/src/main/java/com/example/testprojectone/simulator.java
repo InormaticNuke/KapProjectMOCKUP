@@ -23,7 +23,7 @@ public class simulator extends AppCompatActivity{
     String documentDate;
     String documentExp;
 
-    EditText editText = (EditText) findViewById(R.id.factValue);
+   /* EditText editText = (EditText) findViewById(R.id.factValue);
     editText.setOnClickListener (new View.OnClickListener(){
         public void onClick(View v){
             openActivity2();
@@ -33,6 +33,6 @@ public class simulator extends AppCompatActivity{
     public void openActivity(){
         Intent intent = new Intent(this, simresult.class);
         startActivity(intent);
-    }
+    }*/
 
 }

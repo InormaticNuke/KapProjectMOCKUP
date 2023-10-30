@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        edtUser = (EditText) findViewById(R.id.usertext);
-        edtPass = (EditText) findViewById(R.id.passtext);
+        /*edtUser = (EditText) findViewById(R.id.usertext);
+        edtPass = (EditText) findViewById(R.id.passtext);*/
     }
 
     protected void onClickDataLog(View view){
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void Acceder(View view){
+    /*public void Acceder(View view){
         String username = user.getText().toString().trim();
         String password = pass.getText().toString().trim();
 
@@ -46,5 +46,5 @@ public class MainActivity extends AppCompatActivity {
         }else{
             Toast.makeText(this, "Credenciales incorrectas", Toast.LENGTH_LONG).show();
         }
-    }
+    }*/
 }
